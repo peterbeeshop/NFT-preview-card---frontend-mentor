@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   .container {
+     /* background-color: #15273F; */
+     background-color: #15273E;
+     height: 520px;
+     width: 290px ;
+     border-radius: 17px;
+     margin: 0 auto;
+   }
+   .inner-container {
+     background-color: transparent;
+     height: 540px ;
+     width: 85% ;
+     margin: 10px auto;
+   }
+   .card {
+     border: 1px solid darkslategray;
+     height: 220px;
+     border-radius: 9px;
+     margin-top: 10px 0;
+     padding: 10px;
+     background-color: bisque;
+   }
+   section {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+     margin-top: -20px;
+   }
+   section p img {
+     margin-right: 3px;
+   }
+   .inner-container img {
+     margin-top: 10px;
+     border-radius: 8px;
+   }
+   .avatar {
+     position: relative;
+   }
+   .avatar p {
+     color: #8D99AA;
+     position: absolute;
+     left:18%;
+     bottom: -10%;
+   }
+   .avatar img {
+     border: 1px solid whitesmoke;
+     border-radius: 50%;
+   }
+  .inner-container img {
+    margin-top: 20px;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="inner-container">
+        <img src="./images/image-equilibrium.jpg" width="100%" alt="">
+      <!-- <div class="card">
+      </div> -->
+      <h2 style="color: white;">Equilibrium #3429</h2>
+      <p style="color: #516887;">Our Equilibrium collection promotes balance and calm.</p>
+      <section>
+       <p style="color: #2AB8BC;"><img src="./images/icon-ethereum.svg" alt="">0.041 ETH</p> <p style="color: #6C81A0;"><img src="./images/icon-clock.svg" alt=""> 3 days left</p>
+      </section>
+      <div style="border-bottom: 0.2px solid white;"></div>
+      <div class="avatar">
+        <img src="./images/image-avatar.png" width="30px" alt="">
+        <p class="avater-p"> <span style="color: #364D6D; font-size: 16px;">Creation of </span> Jules Wyvern</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Equilibrium #3429
+ 
+  
+
+  
+ 
+  
+ 
+
+
+
+</body>
+</html>
